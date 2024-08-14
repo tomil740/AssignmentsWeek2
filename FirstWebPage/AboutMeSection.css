@@ -1,0 +1,104 @@
+
+body{
+    margin: 0;
+    background-color: #dadbd0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+a{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin: 0;
+}
+
+.AboutMe{
+    margin: 45px;
+    display: grid;
+    grid-template-columns: 375px 450px ;
+    gap: 35px;
+}
+
+.ProfileBox{
+    display: flex;
+    flex-direction: column;
+    background-color: #cdeda3;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    height: fit-content;
+}
+.ProfileImg{
+    border-radius: 900px;
+    width: 70%;
+    margin-top: 20px; ;
+}
+.ProfileTextBox{
+    display: flex;
+    flex-direction: column;
+    color: #102000;
+    font-size: 55px;
+    font-family: Bold;
+    text-align: center;
+    align-items: center;
+    margin-right:77px;
+    margin-left:77px;
+    
+}
+.ProfileBox
+.BrakeLine{
+    width: 70px;
+    height: 2px;
+    background-color: #4c662b;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ProfileBox
+.SubText{
+    color: #4c662b;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.ProfileIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f9faef;
+    width: 100%;
+}
+
+.ProfileIcons
+.IconItem{
+    height: 56px;
+    padding: 8px;
+}
+
+.AboutMeTextBox{
+    color: #1f3701;
+   display: flex;
+   flex-direction: column;
+   margin-top: 20px ;
+   font-size: 22px;
+}
+
+.AboutMeTextBox 
+.Header{
+    font-size: 120px;
+}
+
+
+.AboutMeTextBox
+.ProjectBut{
+    padding: 10px 30px;
+    background-color: #102000;
+    color: #cdeda3;
+    width:fit-content;
+    border-radius: 30px;
+    margin: 25px;
+    font-size: 22px;
+    text-decoration: none;
+}
