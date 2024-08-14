@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create an account</h1>
+    <form action="#" method="post">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email"/><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password"/><br>
+
+        <label for="age">Age:</label><br>
+        <select id ="ageOptionsMenu" class="ageOptionsMenu">
+        </select><br>
+
+        <label for="aboutYourSelf">Tell us about your self:</label><br>
+        <textarea id="aboutYourSelf" rows="3"></textarea><br>
+
+        <input type="checkbox" id="termsCheck"/>
+        <label for="termsCheck" aria-required="true">I agree to <a href="#">terms of service</a>:</label>
+        <br>
+
+        <input type="submit" value="sign up"><br>
+    </form>
+
+    <script>
+        let a = document.querySelector('.ageOptionsMenu');
+        let b = `<select id ="ageOptionsMenu" class="ageOptionsMenu">;`
+        for(let i = 0; i < 100; i++){
+            b+=`
+                <option value="age${i}">${i}</option>  `
+        }
+        a.innerHTML = b;
+    </script>
+    
+</body>
+</html>
