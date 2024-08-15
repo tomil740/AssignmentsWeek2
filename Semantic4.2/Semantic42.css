@@ -1,0 +1,15 @@
+body{
+    margin: 2px 250px;
+
+}
+.MainHeader{
+    display: flex;
+    align-items:center;
+    height: 120px;
+    margin: 2px 150px;
+    justify-content: space-between;
+}
+
+.headerIcon{
+    height: 65px;
+}
