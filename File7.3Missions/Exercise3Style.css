@@ -1,0 +1,20 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.QuoteItem{
+    background-color: #dae2f9;
+    width: 500px;
+    padding: 8px 16px;
+    border-style:solid ;
+    border-color: rgb(27, 38, 38);
+    border-width:1.5px;
+    border-radius: 25px;
+}
+
+.QuoteItem
+p{
+    color: #131c2b;
+    font-size: 1.2rem;
+}
