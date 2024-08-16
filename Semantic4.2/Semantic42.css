@@ -1,6 +1,11 @@
 body{
     margin: 2px 250px;
-
+}
+footer{
+    position: fixed;
+    bottom: 36px;
+    display: flex;
+    flex-direction: column;
 }
 .MainHeader{
     display: flex;
@@ -12,4 +17,10 @@ body{
 
 .headerIcon{
     height: 65px;
+}
+
+.CommentsForm{
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
 }
