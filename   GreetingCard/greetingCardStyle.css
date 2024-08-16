@@ -25,3 +25,42 @@ main{
 h1{
     margin-bottom: 8px;
 }
+
+.MainNavigationBar{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.MainNavigationBar
+li{
+    font-size: 1.4rem;
+    prefix:unset;
+    margin: 1.1rem;
+    border-color:antiquewhite;
+    border-style: solid;
+    border-width: 2.8px;
+    border-radius: 25px;
+    max-height:32px;
+}
+
+.MainNavigationBar
+li:hover{
+   background-color: rgb(50, 52, 4);
+   border-color: purple;
+   padding: 1.5rem;    
+}
+
+.MainNavigationBar
+a{
+    text-decoration: none;
+    padding: 2rem 1.1rem;
+    color: rgba(0, 0, 0, 0.812);
+}
+
+
+.MainNavigationBar
+a:hover{
+    color: aliceblue;
+}
